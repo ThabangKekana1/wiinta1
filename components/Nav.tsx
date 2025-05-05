@@ -35,18 +35,6 @@ export const Nav = () => {
         <HumeLogo className={"h-5 w-auto"} />
       </div>
       <div className={"ml-auto flex items-center gap-1"}>
-        <Button
-          onClick={() => {
-            window.open(
-              pkg.homepage,
-              "_blank",
-              "noopener noreferrer"
-            );
-          }}
-          variant={"ghost"}
-          className={"ml-auto flex items-center gap-1.5"}
-        >
-          <span>
           
         <Button
           onClick={toggleDark}
