@@ -1,7 +1,7 @@
 "use client";
 
 import { useLayoutEffect, useState } from "react";
-import WiintaLogo from "./Wiinta"; // Adjust filename as needed
+import WiintaLogo from "./logos/Wiinta"; // Adjust filename as needed
 import { Button } from "./ui/button";
 import { Moon, Sun } from "lucide-react";
 import pkg from '@/package.json';
