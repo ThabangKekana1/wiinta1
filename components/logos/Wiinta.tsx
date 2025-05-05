@@ -1,13 +1,8 @@
-const WiintaLogo = (props: React.SVGProps<SVGSVGElement>) => (
-  <svg
-    {...props}
-    xmlns="http://www.w3.org/2000/svg"
-    viewBox="0 0 100 100"
-    fill="currentColor"
-  >
-    <circle cx="50" cy="50" r="40" />
-    {/* Replace this with your actual logo paths */}
-  </svg>
+import Image from "next/image";
+import logo from "@/public/wiinta-logo.png"; // Put your logo file in the public folder
+
+const WiintaLogo = (props) => (
+  <Image src={logo} alt="Wiinta Logo" height={32} width={auto} {...props} />
 );
 
 export default WiintaLogo;
