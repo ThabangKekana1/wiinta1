@@ -1,8 +1,13 @@
 import Image from "next/image";
-import logo from "@/public/wiinta-logo.png"; // Put your logo file in the public folder
 
 const WiintaLogo = (props) => (
-  <Image src={logo} alt="Wiinta Logo" height={32} width={100} {...props} />
+  <Image
+    src="/wiinta-logo.png" // ✅ Use relative path from public
+    alt="Wiinta Logo"
+    height={32}
+    width={100} // width must be a number
+    {...props}
+  />
 );
 
 export default WiintaLogo;
