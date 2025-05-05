@@ -7,7 +7,7 @@ import { cn } from "@/utils";
 
 export const metadata: Metadata = {
   title: "Talk to Wiinta",
-  description: "A Next.js starter using Hume AI's Empathic Voice Interface",
+  description: "Solving consciousness",
 };
 
 export default function RootLayout({
