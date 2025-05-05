@@ -1,7 +1,7 @@
 "use client";
 
 import { useLayoutEffect, useState } from "react";
-import HumeLogo from "./logos/Hume";
+import WiintaLogo from "./logos/Wiinta"; // Adjust filename as needed
 import { Button } from "./ui/button";
 import { Moon, Sun } from "lucide-react";
 import pkg from '@/package.json';
@@ -32,7 +32,7 @@ export const Nav = () => {
       }
     >
       <div>
-        <HumeLogo className={"h-5 w-auto"} />
+        <WiintaLogo className={"h-5 w-auto"} />
       </div>
       <div className={"ml-auto flex items-center gap-1"}>
           
