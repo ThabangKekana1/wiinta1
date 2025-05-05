@@ -32,7 +32,7 @@ export const Nav = () => {
       }
     >
       <div>
-        <WiintaLogo className={"h-5 w-auto"} />
+<img src={WiintaLogo} alt="Wiinta Logo" className="h-5 w-auto" />
       </div>
       <div className={"ml-auto flex items-center gap-1"}>
           
